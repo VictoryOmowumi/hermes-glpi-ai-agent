@@ -1,0 +1,11 @@
+google-genai
+requests
+pydantic
+python-dotenv
+fastapi
+uvicorn
+streamlit
+Authlib
+Markdown
+altair
+pandas

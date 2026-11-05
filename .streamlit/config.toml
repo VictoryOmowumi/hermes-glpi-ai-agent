@@ -1,0 +1,49 @@
+# Portal look and feel ("Professional Harmony" palette: #1A73E8 blue, #F8F9FA white, #34A853 green, #202124 charcoal).
+# Streamlit follows the viewer's system light/dark setting by default;
+# viewers can switch manually from the ⋮ menu (top right) > Settings > Theme.
+
+[server]
+# Serve the portal on this machine only (no "Network URL"), so nobody else on the network can reach it
+address = "localhost"
+
+[client]
+# Hide Streamlit's automatic page list; admins get an Analytics link at the bottom of the sidebar instead
+showSidebarNavigation = false
+
+[theme]
+baseRadius = "medium"
+buttonRadius = "full"
+showWidgetBorder = true
+showSidebarBorder = true
+
+[theme.light]
+backgroundColor = "#F8F9FA"
+secondaryBackgroundColor = "#F1F3F4"
+textColor = "#202124"
+primaryColor = "#1A73E8"
+borderColor = "#E3E5E8"
+linkColor = "#1A73E8"
+greenColor = "#34A853"
+blueColor = "#1A73E8"
+
+[theme.light.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F3F4"
+textColor = "#202124"
+borderColor = "#E3E5E8"
+
+[theme.dark]
+backgroundColor = "#202124"
+secondaryBackgroundColor = "#2D2E31"
+textColor = "#E8EAED"
+primaryColor = "#1A73E8"
+borderColor = "#3C4043"
+linkColor = "#8AB4F8"
+greenColor = "#34A853"
+blueColor = "#8AB4F8"
+
+[theme.dark.sidebar]
+backgroundColor = "#17181A"
+secondaryBackgroundColor = "#2D2E31"
+textColor = "#E8EAED"
+borderColor = "#2D2E31"
